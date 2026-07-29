@@ -26,7 +26,7 @@ window.SITE_DATA = {
       about: [
         "I am a Ph.D. candidate in Manufacturing Informatization at Lanzhou University of Technology. My work is grounded in computer science, artificial intelligence, and computer vision rather than traditional manufacturing engineering.",
         "During my master’s study, I focused on knowledge distillation and lightweight deep learning models. My doctoral research extends this foundation toward interpretable distillation, multimodal fusion, and heterogeneous knowledge transfer.",
-        "I have participated in clinical–pathological–genomic pan-cancer classification research and plan to investigate ensemble knowledge distillation for multimodal computational pathology through a CSC-supported joint research visit.",
+        "I have participated in clinical–pathological–genomic pan-cancer classification research and plan to investigate lacent space knowledge distillation for multimodal computational pathology",
         "My previous work in embedded software, mathematical-library development, model deployment, and medical AI agents supports the engineering side of efficient model design and reliable implementation."
       ],
       researchKicker: "Research", researchTitle: "Research interests and proposed CSC project",
@@ -75,7 +75,6 @@ window.SITE_DATA = {
       nav: ["首页", "关于我", "研究方向", "论文成果", "科研项目", "教育与经历", "学术服务", "简历", "联系"],
       heroEyebrow: "计算机科学 · 医学人工智能",
       heroRole: "兰州理工大学博士研究生",
-      status: "正在寻找 2027 年 CSC 博士联合培养海外导师",
       heroIntro: "我的研究聚焦可解释知识蒸馏、异构表征迁移、多模态学习与高效计算机视觉，当前重点探索面向轻量化多模态计算病理模型的集成与多教师知识蒸馏方法。",
       keywords: ["知识蒸馏", "计算机视觉", "多模态学习", "计算病理", "高效医学人工智能"],
       viewResearch: "查看研究", publicationsButton: "论文成果", downloadCV: "下载简历",
@@ -88,9 +87,8 @@ window.SITE_DATA = {
         "我已参与临床—病理—基因组泛癌分类研究，并计划通过 CSC 博士联合培养项目开展多模态计算病理模型的集成知识蒸馏研究。",
         "嵌入式软件、数学库开发、模型部署与医学智能体开发经历，为高效模型设计和可靠工程实现提供了实践基础。"
       ],
-      researchKicker: "研究方向", researchTitle: "研究兴趣与 CSC 联合培养计划",
+
       researchLead: "研究连接高效表征迁移与多模态医学证据，重点关注不确定性、可解释性以及实际部署约束。",
-      proposalLabel: "CSC 拟开展研究 · 2027",
       proposalTitle: "面向轻量化多模态计算病理模型的集成知识蒸馏",
       proposalGoal: "研究目标：构建高效、可信的知识蒸馏框架，将异构多模态教师模型中的互补知识迁移至轻量化学生模型，用于计算病理任务。",
       proposalPillars: [
