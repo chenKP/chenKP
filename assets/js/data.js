@@ -17,7 +17,7 @@ window.SITE_DATA = {
       nav: ["Home", "About", "Research", "Publications", "Projects", "Experience", "Academic Service", "CV", "Contact"],
       heroEyebrow: "Computer Science · Medical Artificial Intelligence",
       heroRole: "Ph.D. Candidate at Lanzhou University of Technology",
-      heroIntro: "I study interpretable knowledge distillation, heterogeneous representation transfer, multimodal learning, and efficient computer vision. My current goal is to develop ensemble and multi-teacher distillation methods for lightweight multimodal computational pathology models.",
+      heroIntro: "I study interpretable knowledge distillation, heterogeneous representation transfer, multimodal learning, and efficient computer vision.",
       keywords: ["Knowledge Distillation", "Computer Vision", "Multimodal Learning", "Computational Pathology", "Efficient Medical AI"],
       viewResearch: "View Research", publicationsButton: "Publications", downloadCV: "Download CV",
       cvComingSoon: "CV coming soon", contactMe: "Contact Me",
