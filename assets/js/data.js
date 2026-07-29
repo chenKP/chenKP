@@ -17,12 +17,11 @@ window.SITE_DATA = {
       nav: ["Home", "About", "Research", "Publications", "Projects", "Experience", "Academic Service", "CV", "Contact"],
       heroEyebrow: "Computer Science · Medical Artificial Intelligence",
       heroRole: "Ph.D. Candidate at Lanzhou University of Technology",
-      status: "Seeking a CSC Joint Ph.D. Host Supervisor for 2027",
       heroIntro: "I study interpretable knowledge distillation, heterogeneous representation transfer, multimodal learning, and efficient computer vision. My current goal is to develop ensemble and multi-teacher distillation methods for lightweight multimodal computational pathology models.",
       keywords: ["Knowledge Distillation", "Computer Vision", "Multimodal Learning", "Computational Pathology", "Efficient Medical AI"],
       viewResearch: "View Research", publicationsButton: "Publications", downloadCV: "Download CV",
       cvComingSoon: "CV coming soon", contactMe: "Contact Me",
-      facts: [["Degree", "Ph.D. Candidate"], ["Program", "Manufacturing Informatization"], ["Research field", "Computer Science & AI"], ["Location", "Lanzhou, China"]],
+      facts: [["Degree", "Ph.D. Candidate"], ["Program", "School of Computer and Artificial Intelligence, Lanzhou University of Technology,"], ["Research field", "Computer Science & AI"], ["Location", "Lanzhou, China"]],
       aboutKicker: "Background", aboutTitle: "Research grounded in efficient and trustworthy AI",
       about: [
         "I am a Ph.D. candidate in Manufacturing Informatization at Lanzhou University of Technology. My work is grounded in computer science, artificial intelligence, and computer vision rather than traditional manufacturing engineering.",
