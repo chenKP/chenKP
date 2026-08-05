@@ -66,12 +66,6 @@
   }
 
   function renderResearch() {
-    $("#proposal-pillars").innerHTML = t("proposalPillars").map(([number, title, copy]) =>
-      `<div class="pillar"><span>${number}</span><h4>${escapeHtml(title)}</h4><p>${escapeHtml(copy)}</p></div>`
-    ).join("");
-    $("#research-flow").innerHTML = t("flow").map((step, index, array) =>
-      `<div class="flow-step">${escapeHtml(step)}</div>${index < array.length - 1 ? '<div class="flow-arrow" aria-hidden="true">→</div>' : ""}`
-    ).join("");
     $("#research-cards").innerHTML = t("interests").map(([title, copy], index) =>
       `<article class="research-card"><span class="card-index">${String(index + 1).padStart(2, "0")}</span><h3>${escapeHtml(title)}</h3><p>${escapeHtml(copy)}</p></article>`
     ).join("");

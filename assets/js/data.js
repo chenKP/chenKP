@@ -8,7 +8,7 @@ window.SITE_DATA = {
       academicEmail: "chenkp@lut.edu.cn",
       personalEmail: "17693127958@139.com",
       googleScholar: "",
-      orcid: "0009-0001-8765-2778",
+      orcid: "https://orcid.org/0009-0001-8765-2778",
       github: "https://github.com/chenKP"
     }
   },
@@ -29,27 +29,13 @@ window.SITE_DATA = {
         "I have participated in clinical–pathological–genomic pan-cancer classification research and plan to investigate lacent space knowledge distillation for multimodal computational pathology",
         "My previous work in embedded software, mathematical-library development, model deployment, and medical AI agents supports the engineering side of efficient model design and reliable implementation."
       ],
-      researchKicker: "Research", researchTitle: "Research interests and proposed CSC project",
-      researchLead: "My work connects efficient representation transfer with multimodal medical evidence, with particular attention to uncertainty, interpretability, and deployment constraints.",
-      proposalLabel: "CSC proposed research · 2027",
-      proposalTitle: "Ensemble Knowledge Distillation for Lightweight Multimodal Computational Pathology Models",
-      proposalGoal: "Goal: Develop an efficient and trustworthy knowledge distillation framework that transfers complementary knowledge from heterogeneous multimodal teacher models into a lightweight student model for computational pathology.",
-      proposalPillars: [
-        ["01", "Multimodal Teacher Ensemble", "Construct heterogeneous teacher models for whole-slide pathology images, genomic data, and clinical variables."],
-        ["02", "Cross-modal Knowledge Alignment", "Align visual, genomic, and clinical representations in a shared latent space."],
-        ["03", "Uncertainty-aware Multi-teacher Distillation", "Dynamically aggregate teacher knowledge according to modality reliability, uncertainty, and sample characteristics."],
-        ["04", "Lightweight and Trustworthy Deployment", "Reduce parameters, FLOPs, memory use, and latency while preserving performance, calibration, robustness, and interpretability."]
-      ],
-      flow: ["Pathology Images + Genomics + Clinical Data", "Heterogeneous Teacher Models", "Cross-modal Representation Alignment", "Uncertainty-aware Knowledge Aggregation", "Lightweight Student Model", "Cancer Diagnosis / Prognosis"],
+      researchKicker: "Research", researchTitle: "Research interests",
+      researchLead: "My research focuses on heterogeneous and interpretable knowledge distillation, with an emphasis on manifold geometry and extensions to pathology imaging and multimodal learning.",
       interests: [
-        ["Knowledge Distillation and Model Compression", "Transfer predictive knowledge from capable teacher models into compact students while controlling accuracy–efficiency trade-offs."],
-        ["Interpretable Knowledge Distillation", "Study which representations are transferred and how teacher guidance shapes student decisions, especially in high-stakes medical settings."],
-        ["Heterogeneous Representation Alignment", "Bridge representations produced by different architectures, feature scales, and data modalities without assuming identical latent structures."],
-        ["Multimodal Learning", "Integrate complementary evidence across visual, clinical, and molecular data while accounting for missing or unevenly informative modalities."],
-        ["Computational Pathology", "Develop learning methods for pathology images and related patient data to support cancer classification, prognosis, and trustworthy clinical research."],
-        ["Medical Image Analysis", "Design efficient visual models that extract clinically relevant patterns while supporting robustness and interpretable evaluation."],
-        ["Efficient Vision Foundation Models", "Explore compression and transfer strategies that make large visual models more practical under limited compute, memory, and latency budgets."],
-        ["Clinical–Pathological–Genomic Data Fusion", "Model relationships among clinical variables, tissue morphology, and genomic signals for more comprehensive patient-level prediction."]
+        ["Heterogeneous Knowledge Distillation", "Develop knowledge-transfer methods across teacher and student models with different architectures, capacities, and representation spaces."],
+        ["Interpretable Knowledge Distillation", "Investigate what knowledge is transferred and how teacher guidance shapes student representations and decisions."],
+        ["Manifold Geometry for Knowledge Distillation", "Characterize and align representation geometry on data manifolds to support structured and reliable knowledge transfer."],
+        ["Multimodal Computational Pathology", "Extend knowledge distillation to pathology imaging and multimodal learning by integrating histopathological, clinical, and molecular evidence."]
       ],
       publicationsKicker: "Scholarly work", publicationsTitle: "Publications",
       publicationsLead: "Selected work spans knowledge distillation, multimodal medical AI, computational biology, and reinforcement learning.",
@@ -65,8 +51,7 @@ window.SITE_DATA = {
       serviceLead: "Peer-review service for journals in neural networks, machine learning, and intelligent systems.",
       cvKicker: "Curriculum vitae", cvTitle: "Academic CV",
       cvLead: "A concise record of education, publications, research projects, service, and technical experience.",
-      contactKicker: "Contact", contactTitle: "Discuss a potential 2027 CSC research visit",
-      contactLead: "I welcome conversations with prospective host supervisors working in knowledge distillation, multimodal medical AI, computational pathology, or efficient computer vision.",
+      contactKicker: "Contact",
       academicEmail: "Academic email", personalEmail: "Personal email", copyEmail: "Copy email",
       copied: "Copied", emailPending: "Email to be added", location: "Location",
       footerNote: "Built as a lightweight, accessible academic profile.", backToTop: "Back to top"
@@ -88,25 +73,13 @@ window.SITE_DATA = {
         "嵌入式软件、数学库开发、模型部署与医学智能体开发经历，为高效模型设计和可靠工程实现提供了实践基础。"
       ],
 
-      researchLead: "研究连接高效表征迁移与多模态医学证据，重点关注不确定性、可解释性以及实际部署约束。",
-      proposalTitle: "面向轻量化多模态计算病理模型的集成知识蒸馏",
-      proposalGoal: "研究目标：构建高效、可信的知识蒸馏框架，将异构多模态教师模型中的互补知识迁移至轻量化学生模型，用于计算病理任务。",
-      proposalPillars: [
-        ["01", "多模态教师集成", "面向全切片病理图像、基因组数据和临床变量构建异构教师模型。"],
-        ["02", "跨模态知识对齐", "在共享潜在空间中对齐视觉、基因组和临床表征。"],
-        ["03", "不确定性感知的多教师蒸馏", "依据模态可靠性、不确定性和样本特征动态聚合教师知识。"],
-        ["04", "轻量化与可信部署", "在保持性能、校准、鲁棒性与可解释性的同时，降低参数量、FLOPs、内存占用与推理时延。"]
-      ],
-      flow: ["病理图像 + 基因组 + 临床数据", "异构教师模型", "跨模态表征对齐", "不确定性感知知识聚合", "轻量化学生模型", "癌症诊断 / 预后"],
+      researchKicker: "研究", researchTitle: "研究兴趣",
+      researchLead: "研究聚焦异构知识蒸馏与可解释知识蒸馏，重点关注流形几何，并将知识蒸馏拓展至病理影像和多模态学习。",
       interests: [
-        ["知识蒸馏与模型压缩", "将高容量教师模型的预测知识迁移至紧凑学生模型，并控制精度与效率之间的权衡。"],
-        ["可解释知识蒸馏", "研究被迁移的表征及教师指导影响学生决策的机制，尤其关注高风险医学应用。"],
-        ["异构表征对齐", "连接不同架构、特征尺度与数据模态产生的表征，而不预设其潜在结构完全一致。"],
-        ["多模态学习", "融合视觉、临床与分子层面的互补证据，同时处理模态缺失及信息量不均衡问题。"],
-        ["计算病理", "面向病理图像及相关患者数据开发学习方法，支持癌症分类、预后及可信临床研究。"],
-        ["医学图像分析", "设计高效视觉模型以提取临床相关模式，并支持鲁棒性与可解释性评估。"],
-        ["高效视觉基础模型", "探索压缩与迁移策略，使大型视觉模型适应受限的计算、内存与时延预算。"],
-        ["临床—病理—基因组数据融合", "建模临床变量、组织形态和基因组信号之间的关系，支持更全面的患者级预测。"]
+        ["异构知识蒸馏", "研究不同架构、容量与表征空间的教师模型和学生模型之间的知识迁移方法。"],
+        ["可解释知识蒸馏", "探究知识蒸馏所迁移的知识内容，以及教师指导塑造学生表征与决策的机制。"],
+        ["知识蒸馏中的流形几何", "刻画并对齐数据流形上的表征几何结构，以支持结构化且可靠的知识迁移。"],
+        ["多模态计算病理", "将知识蒸馏拓展至病理影像与多模态学习，融合组织病理、临床和分子层面的互补信息。"]
       ],
       publicationsKicker: "学术成果", publicationsTitle: "论文成果",
       publicationsLead: "研究覆盖知识蒸馏、多模态医学人工智能、计算生物学和强化学习。",
@@ -122,8 +95,7 @@ window.SITE_DATA = {
       serviceLead: "参与神经网络、机器学习与智能系统相关期刊的同行评审。",
       cvKicker: "个人简历", cvTitle: "学术简历",
       cvLead: "简明呈现教育背景、论文、科研项目、学术服务与技术经历。",
-      contactKicker: "联系方式", contactTitle: "探讨 2027 年 CSC 联合培养合作",
-      contactLead: "欢迎知识蒸馏、多模态医学人工智能、计算病理或高效计算机视觉方向的潜在海外导师与我交流。",
+      contactKicker: "联系方式",
       academicEmail: "学校邮箱", personalEmail: "个人邮箱", copyEmail: "复制邮箱",
       copied: "已复制", emailPending: "邮箱待补充", location: "所在地",
       footerNote: "轻量、无障碍的学术个人主页。", backToTop: "返回顶部"
@@ -146,7 +118,7 @@ window.SITE_DATA = {
     },
     {
       selected: true, category: "Multimodal Medical AI",
-      authors: "Kangping Chen et al.",
+      authors: "Chen, K. et al.",
       title: "A Prompt-Guided Latent Space Alignment Framework for Multi-Modal Cancer Survival Risk Prediction.",
       venue: "Manuscript under review.", underReview: true,
       links: { paper: "", doi: "", code: "", bibtex: "" }
